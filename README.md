@@ -41,6 +41,20 @@ npm run build     # production build
 npm run content   # rebuild content after editing content/*.csv or pose-steps.json
 ```
 
+### Static export
+
+Everything in the app runs client-side, so it can also be emitted as a plain
+folder of HTML and assets for a host that serves static files only:
+
+```bash
+STATIC_EXPORT=1 npm run build   # output in apps/web/out
+```
+
+All 40 pose pages are prerendered by `generateStaticParams`. Two notes if you
+publish the folder somewhere that reserves names beginning with an underscore:
+rename `_next` and `_not-found` and rewrite the references, and escape the
+literal U+FFFD characters that appear inside one Next.js chunk as `\ufffd`.
+
 ## The safety rules
 
 These are invariants, not preferences. `packages/engine/test/sequence.test.ts`
