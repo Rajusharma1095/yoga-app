@@ -1,0 +1,12 @@
+{
+  "name": "yoga-app",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "npm run dev -w @yoga/web",
+    "build": "npm run build -w @yoga/web",
+    "start": "npm run start -w @yoga/web",
+    "test": "npm test -w @yoga/engine",
+    "content": "python3 content/build.py"
+  }
+}

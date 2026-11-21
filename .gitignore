@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Local env; see apps/web/.env.example
+.env
+.env.local
+.env*.local
+
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*

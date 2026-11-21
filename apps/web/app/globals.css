@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-calm-50: #f0fdfa;
+  --color-calm-100: #ccfbf1;
+  --color-calm-200: #99f6e4;
+  --color-calm-400: #2dd4bf;
+  --color-calm-500: #14b8a6;
+  --color-calm-600: #0d9488;
+  --color-calm-700: #0f766e;
+  --color-calm-900: #134e4a;
+
+  --color-warn-50: #fef2f2;
+  --color-warn-200: #fecaca;
+  --color-warn-600: #dc2626;
+  --color-warn-700: #b91c1c;
+
+  --font-sans: 'Noto Sans', system-ui, sans-serif;
+  --font-deva: 'Noto Sans Devanagari', 'Noto Sans', system-ui, sans-serif;
+}
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+  --muted: #64748b;
+  --card: #f8fafc;
+  --border: #e2e8f0;
+}
+
+:root:not([data-theme='light']) {
+  @media (prefers-color-scheme: dark) {
+    --bg: #0b1220;
+    --fg: #e7edf5;
+    --muted: #93a2b8;
+    --card: #131c2e;
+    --border: #22304a;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1220;
+  --fg: #e7edf5;
+  --muted: #93a2b8;
+  --card: #131c2e;
+  --border: #22304a;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  /* Older users hold the phone further away; 17px is the floor. */
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Hindi needs more line height than Latin at the same size. */
+[lang='hi'] {
+  font-family: var(--font-deva);
+  line-height: 1.75;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+/* Tap targets stay at 48px for anyone practising on a mat, phone on the floor. */
+.tap {
+  min-height: 48px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
