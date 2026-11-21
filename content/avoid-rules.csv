@@ -1,0 +1,107 @@
+pose_slug,condition,level,reason_hi,alternative_slug,status
+neck-release,neck_injury,CAUTION,गर्दन की चोट या सर्वाइकल में सिर पीछे न ले जाएँ — सिर्फ़ साइड-टू-साइड,,DRAFT
+neck-release,vertigo,CAUTION,चक्कर आ सकते हैं — आँख खोलकर धीरे करें,,DRAFT
+cat-cow,wrist_pain,CAUTION,कलाई पर भार — मुट्ठी बनाकर या कोहनी पर करें,seated-gentle-twist,DRAFT
+cat-cow,knee_arthritis,CAUTION,घुटने के नीचे मोटा कपड़ा/तकिया रखें,seated-gentle-twist,DRAFT
+standing-side-bend,slipped_disc,CAUTION,हल्का ही झुकें · दर्द हो तो रुकें,,DRAFT
+seated-gentle-twist,pregnancy,CAUTION,पेट दबाने वाला ट्विस्ट नहीं — सिर्फ़ खुला ट्विस्ट,,DRAFT
+seated-gentle-twist,recent_surgery,AVOID,पेट/रीढ़ की सर्जरी के 6 महीने तक नहीं,,DRAFT
+uttanasana,high_bp,CAUTION,सिर नीचे — घुटने मोड़ें और धीरे उठें,ardha-uttanasana,DRAFT
+uttanasana,glaucoma,AVOID,आँख का दबाव बढ़ता है,ardha-uttanasana,DRAFT
+uttanasana,vertigo,AVOID,सिर नीचे से चक्कर,ardha-uttanasana,DRAFT
+uttanasana,slipped_disc,AVOID,आगे का गहरा झुकाव डिस्क पर दबाव डालता है,ardha-uttanasana,DRAFT
+uttanasana,osteoporosis,AVOID,रीढ़ में फ्रैक्चर का खतरा,tadasana,DRAFT
+uttanasana,pregnancy,CAUTION,पैर खोलकर · घुटने मोड़कर ही,ardha-uttanasana,DRAFT
+ardha-uttanasana,slipped_disc,CAUTION,कमर सीधी रखें · गोल न करें,tadasana,DRAFT
+warrior-1,knee_arthritis,CAUTION,घुटना कम मोड़ें · टखने से आगे न जाए,tadasana,DRAFT
+warrior-1,high_bp,CAUTION,हाथ ऊपर 30 सेकंड से ज़्यादा न रखें,warrior-2,DRAFT
+warrior-2,knee_arthritis,CAUTION,घुटना कम मोड़ें,tadasana,DRAFT
+trikonasana,slipped_disc,CAUTION,हाथ पिंडली पर रखें · ज़मीन तक न जाएँ,warrior-2,DRAFT
+trikonasana,vertigo,CAUTION,नीचे-ऊपर देखने से चक्कर — सामने देखें,warrior-2,DRAFT
+trikonasana,pregnancy,CAUTION,हाथ कुर्सी/ब्लॉक पर · पेट न दबे,,DRAFT
+parsvakonasana,knee_arthritis,CAUTION,घुटने पर भार — कम मोड़ें,warrior-2,DRAFT
+vrikshasana,vertigo,CAUTION,दीवार का सहारा लें,tadasana,DRAFT
+vrikshasana,knee_arthritis,CAUTION,पैर घुटने पर नहीं · पिंडली पर रखें,tadasana,DRAFT
+utkatasana,knee_arthritis,AVOID,घुटने पर सीधा भार,tadasana,DRAFT
+utkatasana,high_bp,CAUTION,हाथ ऊपर कम समय,,DRAFT
+prasarita,high_bp,CAUTION,सिर नीचे — धीरे उठें,,DRAFT
+prasarita,glaucoma,AVOID,आँख का दबाव,,DRAFT
+prasarita,vertigo,AVOID,चक्कर का खतरा,,DRAFT
+prasarita,slipped_disc,CAUTION,कमर सीधी · हल्का ही,,DRAFT
+low-lunge,knee_arthritis,CAUTION,पिछले घुटने के नीचे तकिया,,DRAFT
+downward-dog,high_bp,CAUTION,सिर नीचे — 20 सेकंड तक ही,balasana,DRAFT
+downward-dog,glaucoma,AVOID,आँख का दबाव बढ़ता है,balasana,DRAFT
+downward-dog,wrist_pain,AVOID,कलाई पर पूरा भार,balasana,DRAFT
+downward-dog,vertigo,AVOID,सिर नीचे से चक्कर,balasana,DRAFT
+downward-dog,pregnancy,CAUTION,तीसरी तिमाही में नहीं,balasana,DRAFT
+balasana,knee_arthritis,CAUTION,घुटने के पीछे तकिया रखें,,DRAFT
+balasana,pregnancy,CAUTION,घुटने चौड़े करें ताकि पेट पर दबाव न पड़े,,DRAFT
+bhujangasana,pregnancy,AVOID,पेट के बल लेटना मना है,cat-cow,DRAFT
+bhujangasana,hernia,AVOID,पेट पर दबाव बढ़ता है,cat-cow,DRAFT
+bhujangasana,recent_surgery,AVOID,पेट की सर्जरी के 6 महीने तक नहीं,cat-cow,DRAFT
+bhujangasana,slipped_disc,CAUTION,सिर्फ़ छाती तक उठें · कमर से नहीं,cat-cow,DRAFT
+salabhasana,pregnancy,AVOID,पेट के बल लेटना मना है,setu-bandhasana,DRAFT
+salabhasana,hernia,AVOID,पेट पर दबाव,setu-bandhasana,DRAFT
+salabhasana,recent_surgery,AVOID,सर्जरी के 6 महीने तक नहीं,setu-bandhasana,DRAFT
+salabhasana,slipped_disc,CAUTION,एक पैर बारी-बारी उठाएँ,setu-bandhasana,DRAFT
+setu-bandhasana,neck_injury,CAUTION,गर्दन न घुमाएँ · सीधी रखें,pawanmuktasana,DRAFT
+setu-bandhasana,pregnancy,CAUTION,पहली तिमाही के बाद पीठ के बल नहीं,,DRAFT
+setu-bandhasana,high_bp,CAUTION,कम ऊँचाई तक · 20 सेकंड तक,,DRAFT
+supine-twist,pregnancy,CAUTION,पहली तिमाही के बाद पीठ के बल नहीं — करवट लेकर,,DRAFT
+supine-twist,slipped_disc,CAUTION,घुटने कम नीचे ले जाएँ,,DRAFT
+supine-twist,recent_surgery,AVOID,पेट/रीढ़ की सर्जरी के बाद नहीं,,DRAFT
+pawanmuktasana,pregnancy,AVOID,पेट पर सीधा दबाव,baddha-konasana,DRAFT
+pawanmuktasana,hernia,AVOID,पेट पर दबाव,baddha-konasana,DRAFT
+pawanmuktasana,recent_surgery,AVOID,सर्जरी के बाद नहीं,baddha-konasana,DRAFT
+paschimottanasana,slipped_disc,AVOID,गहरा आगे झुकाव — डिस्क पर दबाव,baddha-konasana,DRAFT
+paschimottanasana,osteoporosis,AVOID,रीढ़ में फ्रैक्चर का खतरा,baddha-konasana,DRAFT
+paschimottanasana,pregnancy,AVOID,पेट पर दबाव,baddha-konasana,DRAFT
+paschimottanasana,hernia,CAUTION,हल्का ही · पेट न दबे,baddha-konasana,DRAFT
+baddha-konasana,knee_arthritis,CAUTION,घुटनों के नीचे तकिया,,DRAFT
+janu-sirsasana,slipped_disc,CAUTION,कमर सीधी · हल्का ही झुकें,baddha-konasana,DRAFT
+janu-sirsasana,knee_arthritis,CAUTION,मुड़े घुटने के नीचे सहारा,,DRAFT
+janu-sirsasana,pregnancy,CAUTION,पैर खोलकर · पेट न दबे,,DRAFT
+malasana,knee_arthritis,AVOID,गहरा स्क्वाट — घुटने पर पूरा भार,baddha-konasana,DRAFT
+malasana,pregnancy,CAUTION,एड़ी के नीचे सहारा · दीवार का सहारा लें,,DRAFT
+anjaneyasana,knee_arthritis,CAUTION,पिछले घुटने के नीचे तकिया,,DRAFT
+anjaneyasana,high_bp,CAUTION,पीछे ज़्यादा न झुकें,low-lunge,DRAFT
+gomukhasana-arms,shoulder_injury,CAUTION,पट्टा/तौलिया इस्तेमाल करें,,DRAFT
+ustrasana,high_bp,AVOID,गहरा बैकबेंड — ब्लड प्रेशर बढ़ाता है,bhujangasana,DRAFT
+ustrasana,heart,AVOID,छाती पर दबाव,bhujangasana,DRAFT
+ustrasana,hernia,AVOID,पेट पूरा खुलता है,bhujangasana,DRAFT
+ustrasana,slipped_disc,AVOID,कमर पर गहरा दबाव,bhujangasana,DRAFT
+ustrasana,neck_injury,CAUTION,सिर पीछे न गिराएँ · ठुड्डी छाती की ओर,bhujangasana,DRAFT
+ustrasana,pregnancy,AVOID,घुटने + गहरा बैकबेंड,,DRAFT
+ustrasana,knee_arthritis,CAUTION,घुटनों के नीचे मोटी चटाई,bhujangasana,DRAFT
+ustrasana,vertigo,CAUTION,सिर पीछे से चक्कर,bhujangasana,DRAFT
+dhanurasana,pregnancy,AVOID,पेट के बल + गहरा बैकबेंड,setu-bandhasana,DRAFT
+dhanurasana,high_bp,AVOID,ब्लड प्रेशर बढ़ाता है,salabhasana,DRAFT
+dhanurasana,heart,AVOID,छाती और पेट पर दबाव,salabhasana,DRAFT
+dhanurasana,hernia,AVOID,पेट पर पूरा दबाव,salabhasana,DRAFT
+dhanurasana,slipped_disc,AVOID,कमर पर गहरा दबाव,salabhasana,DRAFT
+dhanurasana,recent_surgery,AVOID,सर्जरी के 6 महीने तक नहीं,salabhasana,DRAFT
+ardha-matsyendrasana,pregnancy,CAUTION,सिर्फ़ खुला ट्विस्ट · पेट न दबे,,DRAFT
+ardha-matsyendrasana,slipped_disc,CAUTION,हल्का ही घुमाएँ,,DRAFT
+ardha-matsyendrasana,recent_surgery,AVOID,पेट/रीढ़ की सर्जरी के बाद नहीं,,DRAFT
+ardha-matsyendrasana,knee_arthritis,CAUTION,पैर क्रॉस न करें · सीधा रखें,,DRAFT
+phalakasana,pregnancy,CAUTION,दूसरी तिमाही के बाद नहीं — दीवार पर करें,cat-cow,DRAFT
+phalakasana,wrist_pain,AVOID,कलाई पर पूरा भार,cat-cow,DRAFT
+phalakasana,hernia,AVOID,पेट पर दबाव,cat-cow,DRAFT
+phalakasana,slipped_disc,CAUTION,कमर न झुके — घुटने ज़मीन पर रखें,ardha-phalakasana,DRAFT
+ardha-phalakasana,wrist_pain,AVOID,कलाई पर भार,cat-cow,DRAFT
+ardha-phalakasana,knee_arthritis,CAUTION,घुटनों के नीचे सहारा,cat-cow,DRAFT
+ardha-phalakasana,pregnancy,AVOID,पेट पर दबाव,cat-cow,DRAFT
+navasana,pregnancy,AVOID,पेट की मसल्स पर पूरा ज़ोर,baddha-konasana,DRAFT
+navasana,hernia,AVOID,पेट पर दबाव,baddha-konasana,DRAFT
+navasana,slipped_disc,AVOID,कमर पर दबाव,pawanmuktasana,DRAFT
+navasana,recent_surgery,AVOID,सर्जरी के बाद नहीं,baddha-konasana,DRAFT
+viparita-karani,glaucoma,AVOID,आँख का दबाव बढ़ता है,shavasana,DRAFT
+viparita-karani,high_bp,CAUTION,60 सेकंड तक ही · धीरे उतरें,shavasana,DRAFT
+viparita-karani,heart,CAUTION,डॉक्टर से पूछकर ही,shavasana,DRAFT
+viparita-karani,pregnancy,CAUTION,तीसरी तिमाही में नहीं,shavasana,DRAFT
+viparita-karani,vertigo,CAUTION,धीरे-धीरे उतरें,shavasana,DRAFT
+shavasana,pregnancy,CAUTION,पहली तिमाही के बाद बाईं करवट लेकर लेटें,,DRAFT
+anulom-vilom,high_bp,CAUTION,साँस रोकना नहीं — सिर्फ़ धीरे अंदर-बाहर,,DRAFT
+anulom-vilom,pregnancy,CAUTION,साँस रोकना नहीं,,DRAFT
+anulom-vilom,heart,CAUTION,साँस रोकना नहीं,,DRAFT
+urdhva-hastasana,high_bp,CAUTION,हाथ ऊपर 30 सेकंड से ज़्यादा नहीं · चक्कर आए तो हाथ नीचे,tadasana,DRAFT

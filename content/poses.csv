@@ -1,0 +1,41 @@
+id,slug,name_en,name_hi,name_sanskrit,category,difficulty,goals,default_seconds,per_side,flags,shoot_block,status
+1,neck-release,Neck Release,गर्दन की स्ट्रेच,Greeva Sanchalana,warmup,1,back|stress|energy,40,no,neck_load,A,DRAFT
+2,shoulder-rolls,Shoulder Rolls,कंधा घुमाना,Skandha Chakra,warmup,1,back|stress|energy,40,no,,A,DRAFT
+3,cat-cow,Cat-Cow,बिल्ली-गाय,Marjariasana,warmup,1,back|flexibility|energy,45,no,wrist_load|knee_heavy,B,DRAFT
+4,standing-side-bend,Standing Side Bend,खड़े होकर साइड स्ट्रेच,Tiryaka Tadasana,warmup,1,flexibility|back|energy,30,yes,twist_mild,A,DRAFT
+5,joint-rotations,Wrist & Ankle Rotations,कलाई और टखना घुमाना,Sukshma Vyayama,warmup,1,back|stress|energy,40,no,,A,DRAFT
+6,seated-gentle-twist,Seated Gentle Twist,बैठकर हल्का ट्विस्ट,Sukhasana Parivrtti,warmup,1,back|flexibility|stress,30,yes,twist|knee_heavy,E,DRAFT
+7,tadasana,Mountain Pose,ताड़ासन,Tadasana,standing,1,back|energy|stress,30,no,,A,DRAFT
+8,urdhva-hastasana,Upward Salute,ऊर्ध्व हस्तासन,Urdhva Hastasana,standing,1,energy|flexibility|back,30,no,shoulder_load,A,DRAFT
+9,uttanasana,Standing Forward Bend,उत्तानासन,Uttanasana,standing,2,flexibility|stress|weightloss,30,no,deep_forward_bend|head_down,A,DRAFT
+10,ardha-uttanasana,Half Forward Bend,अर्ध उत्तानासन,Ardha Uttanasana,standing,1,back|flexibility,25,no,forward_bend,A,DRAFT
+11,warrior-1,Warrior I,वीरभद्रासन १,Virabhadrasana I,standing,2,weightloss|energy|back,35,yes,knee_heavy|backbend_mild,A,DRAFT
+12,warrior-2,Warrior II,वीरभद्रासन २,Virabhadrasana II,standing,2,weightloss|energy|flexibility,35,yes,knee_heavy,A,DRAFT
+13,trikonasana,Triangle Pose,त्रिकोणासन,Trikonasana,standing,2,flexibility|back|weightloss,35,yes,twist|side_stretch,A,DRAFT
+14,parsvakonasana,Extended Side Angle,पार्श्वकोणासन,Utthita Parsvakonasana,standing,2,weightloss|flexibility|energy,35,yes,knee_heavy|side_stretch,A,DRAFT
+15,vrikshasana,Tree Pose,वृक्षासन,Vrikshasana,standing,2,stress|back|energy,30,yes,standing_balance,A,DRAFT
+16,utkatasana,Chair Pose,उत्कटासन,Utkatasana,standing,2,weightloss|energy,30,no,knee_heavy,A,DRAFT
+17,prasarita,Wide-Leg Forward Bend,प्रसारित पादोत्तानासन,Prasarita Padottanasana,standing,2,flexibility|stress,35,no,deep_forward_bend|head_down,A,DRAFT
+18,low-lunge,Low Lunge,अश्व संचालनासन,Ashwa Sanchalanasana,standing,2,flexibility|weightloss|back,35,yes,knee_heavy|hip_opener,A,DRAFT
+19,downward-dog,Downward Facing Dog,अधोमुख श्वानासन,Adho Mukha Svanasana,floor,2,flexibility|weightloss|energy,35,no,wrist_load|head_down|shoulder_load,B,DRAFT
+20,balasana,Child's Pose,बालासन,Balasana,cooldown,1,stress|back|flexibility,45,no,knee_heavy,B,DRAFT
+21,bhujangasana,Cobra Pose (gentle),भुजंगासन,Bhujangasana,floor,2,back|energy|flexibility,30,no,prone|backbend,C,DRAFT
+22,salabhasana,Locust Pose,शलभासन,Salabhasana,floor,2,back|weightloss,25,no,prone|backbend,C,DRAFT
+23,setu-bandhasana,Bridge Pose,सेतु बंधासन,Setu Bandhasana,floor,2,back|weightloss|stress,35,no,supine|backbend|neck_load,D,DRAFT
+24,supine-twist,Supine Twist,लेटकर ट्विस्ट,Supta Matsyendrasana,cooldown,1,back|stress|flexibility,35,yes,supine|twist,D,DRAFT
+25,pawanmuktasana,Knee to Chest,पवनमुक्तासन,Pawanmuktasana,floor,1,back|stress|weightloss,35,yes,supine,D,DRAFT
+26,paschimottanasana,Seated Forward Bend,पश्चिमोत्तानासन,Paschimottanasana,floor,2,flexibility|stress,40,no,deep_forward_bend,E,DRAFT
+27,baddha-konasana,Butterfly Pose,बद्धकोणासन,Baddha Konasana,floor,1,flexibility|stress|hip,40,no,hip_opener,E,DRAFT
+28,janu-sirsasana,Head-to-Knee Pose,जानु शीर्षासन,Janu Sirsasana,floor,2,flexibility|stress,35,yes,forward_bend|knee_heavy,E,DRAFT
+29,malasana,Garland Pose (Squat),मलासन,Malasana,floor,2,hip|flexibility|weightloss,35,no,knee_heavy|hip_opener|deep_squat,E,DRAFT
+30,anjaneyasana,Crescent Lunge,अंजनेयासन,Anjaneyasana,standing,2,flexibility|hip|energy,35,yes,knee_heavy|backbend_mild|hip_opener,A,DRAFT
+31,gomukhasana-arms,Cow-Face Arms,गोमुखासन (हाथ),Gomukhasana,floor,2,back|flexibility|stress,30,yes,shoulder_load,E,DRAFT
+32,ustrasana,Camel Pose (gentle),उष्ट्रासन,Ustrasana,floor,3,back|energy|flexibility,25,no,backbend|neck_load|knee_heavy,E,DRAFT
+33,dhanurasana,Bow Pose,धनुरासन,Dhanurasana,floor,3,back|energy|weightloss,20,no,prone|backbend,C,DRAFT
+34,ardha-matsyendrasana,Seated Half Twist,अर्ध मत्स्येन्द्रासन,Ardha Matsyendrasana,floor,2,back|flexibility|weightloss,30,yes,twist|knee_heavy,E,DRAFT
+35,phalakasana,Plank Pose,फलकासन,Phalakasana,core,2,weightloss|back|energy,25,no,wrist_load|core|prone_facing,B,DRAFT
+36,ardha-phalakasana,Half Plank (knees down),अर्ध फलकासन,Ardha Phalakasana,core,3,weightloss|energy,20,no,wrist_load|core|knee_heavy,B,DRAFT
+37,navasana,Half Boat Pose,नावासन,Ardha Navasana,core,3,weightloss|core,20,no,core|supine_seated,D,DRAFT
+38,viparita-karani,Legs Up The Wall,विपरीत करणी,Viparita Karani,cooldown,1,stress|back|sleep,90,no,supine|legs_up|mild_inversion,D,DRAFT
+39,shavasana,Corpse Pose,शवासन,Shavasana,cooldown,1,stress|sleep,180,no,supine,D,DRAFT
+40,anulom-vilom,Alternate Nostril Breathing,अनुलोम-विलोम,Nadi Shodhana,breath,1,stress|sleep|energy,120,no,breath|no_retention,E,DRAFT

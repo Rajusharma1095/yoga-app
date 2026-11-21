@@ -1,0 +1,1965 @@
+{
+  "version": 1,
+  "generatedFrom": [
+    "poses.csv",
+    "avoid-rules.csv"
+  ],
+  "poses": [
+    {
+      "id": 1,
+      "slug": "neck-release",
+      "name": {
+        "en": "Neck Release",
+        "hi": "गर्दन की स्ट्रेच",
+        "sa": "Greeva Sanchalana"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "stress",
+        "energy"
+      ],
+      "defaultSeconds": 40,
+      "perSide": false,
+      "flags": [
+        "neck_load"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "neck_injury",
+          "level": "CAUTION",
+          "reasonHi": "गर्दन की चोट या सर्वाइकल में सिर पीछे न ले जाएँ — सिर्फ़ साइड-टू-साइड",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "CAUTION",
+          "reasonHi": "चक्कर आ सकते हैं — आँख खोलकर धीरे करें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "shoulder-rolls",
+      "name": {
+        "en": "Shoulder Rolls",
+        "hi": "कंधा घुमाना",
+        "sa": "Skandha Chakra"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "stress",
+        "energy"
+      ],
+      "defaultSeconds": 40,
+      "perSide": false,
+      "flags": [],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": []
+    },
+    {
+      "id": 3,
+      "slug": "cat-cow",
+      "name": {
+        "en": "Cat-Cow",
+        "hi": "बिल्ली-गाय",
+        "sa": "Marjariasana"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "flexibility",
+        "energy"
+      ],
+      "defaultSeconds": 45,
+      "perSide": false,
+      "flags": [
+        "wrist_load",
+        "knee_heavy"
+      ],
+      "shootBlock": "B",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "wrist_pain",
+          "level": "CAUTION",
+          "reasonHi": "कलाई पर भार — मुट्ठी बनाकर या कोहनी पर करें",
+          "alternative": "seated-gentle-twist",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटने के नीचे मोटा कपड़ा/तकिया रखें",
+          "alternative": "seated-gentle-twist",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "standing-side-bend",
+      "name": {
+        "en": "Standing Side Bend",
+        "hi": "खड़े होकर साइड स्ट्रेच",
+        "sa": "Tiryaka Tadasana"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "flexibility",
+        "back",
+        "energy"
+      ],
+      "defaultSeconds": 30,
+      "perSide": true,
+      "flags": [
+        "twist_mild"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "हल्का ही झुकें · दर्द हो तो रुकें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "joint-rotations",
+      "name": {
+        "en": "Wrist & Ankle Rotations",
+        "hi": "कलाई और टखना घुमाना",
+        "sa": "Sukshma Vyayama"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "stress",
+        "energy"
+      ],
+      "defaultSeconds": 40,
+      "perSide": false,
+      "flags": [],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": []
+    },
+    {
+      "id": 6,
+      "slug": "seated-gentle-twist",
+      "name": {
+        "en": "Seated Gentle Twist",
+        "hi": "बैठकर हल्का ट्विस्ट",
+        "sa": "Sukhasana Parivrtti"
+      },
+      "category": "warmup",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "flexibility",
+        "stress"
+      ],
+      "defaultSeconds": 30,
+      "perSide": true,
+      "flags": [
+        "twist",
+        "knee_heavy"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पेट दबाने वाला ट्विस्ट नहीं — सिर्फ़ खुला ट्विस्ट",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "पेट/रीढ़ की सर्जरी के 6 महीने तक नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "tadasana",
+      "name": {
+        "en": "Mountain Pose",
+        "hi": "ताड़ासन",
+        "sa": "Tadasana"
+      },
+      "category": "standing",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "energy",
+        "stress"
+      ],
+      "defaultSeconds": 30,
+      "perSide": false,
+      "flags": [],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": []
+    },
+    {
+      "id": 8,
+      "slug": "urdhva-hastasana",
+      "name": {
+        "en": "Upward Salute",
+        "hi": "ऊर्ध्व हस्तासन",
+        "sa": "Urdhva Hastasana"
+      },
+      "category": "standing",
+      "difficulty": 1,
+      "goals": [
+        "energy",
+        "flexibility",
+        "back"
+      ],
+      "defaultSeconds": 30,
+      "perSide": false,
+      "flags": [
+        "shoulder_load"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "हाथ ऊपर 30 सेकंड से ज़्यादा नहीं · चक्कर आए तो हाथ नीचे",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "uttanasana",
+      "name": {
+        "en": "Standing Forward Bend",
+        "hi": "उत्तानासन",
+        "sa": "Uttanasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "stress",
+        "weightloss"
+      ],
+      "defaultSeconds": 30,
+      "perSide": false,
+      "flags": [
+        "deep_forward_bend",
+        "head_down"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "सिर नीचे — घुटने मोड़ें और धीरे उठें",
+          "alternative": "ardha-uttanasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "glaucoma",
+          "level": "AVOID",
+          "reasonHi": "आँख का दबाव बढ़ता है",
+          "alternative": "ardha-uttanasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "AVOID",
+          "reasonHi": "सिर नीचे से चक्कर",
+          "alternative": "ardha-uttanasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "AVOID",
+          "reasonHi": "आगे का गहरा झुकाव डिस्क पर दबाव डालता है",
+          "alternative": "ardha-uttanasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "osteoporosis",
+          "level": "AVOID",
+          "reasonHi": "रीढ़ में फ्रैक्चर का खतरा",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पैर खोलकर · घुटने मोड़कर ही",
+          "alternative": "ardha-uttanasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "ardha-uttanasana",
+      "name": {
+        "en": "Half Forward Bend",
+        "hi": "अर्ध उत्तानासन",
+        "sa": "Ardha Uttanasana"
+      },
+      "category": "standing",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "flexibility"
+      ],
+      "defaultSeconds": 25,
+      "perSide": false,
+      "flags": [
+        "forward_bend"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "कमर सीधी रखें · गोल न करें",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "warrior-1",
+      "name": {
+        "en": "Warrior I",
+        "hi": "वीरभद्रासन १",
+        "sa": "Virabhadrasana I"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "weightloss",
+        "energy",
+        "back"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "knee_heavy",
+        "backbend_mild"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटना कम मोड़ें · टखने से आगे न जाए",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "हाथ ऊपर 30 सेकंड से ज़्यादा न रखें",
+          "alternative": "warrior-2",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "warrior-2",
+      "name": {
+        "en": "Warrior II",
+        "hi": "वीरभद्रासन २",
+        "sa": "Virabhadrasana II"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "weightloss",
+        "energy",
+        "flexibility"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "knee_heavy"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटना कम मोड़ें",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "trikonasana",
+      "name": {
+        "en": "Triangle Pose",
+        "hi": "त्रिकोणासन",
+        "sa": "Trikonasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "back",
+        "weightloss"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "twist",
+        "side_stretch"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "हाथ पिंडली पर रखें · ज़मीन तक न जाएँ",
+          "alternative": "warrior-2",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "CAUTION",
+          "reasonHi": "नीचे-ऊपर देखने से चक्कर — सामने देखें",
+          "alternative": "warrior-2",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "हाथ कुर्सी/ब्लॉक पर · पेट न दबे",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "parsvakonasana",
+      "name": {
+        "en": "Extended Side Angle",
+        "hi": "पार्श्वकोणासन",
+        "sa": "Utthita Parsvakonasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "weightloss",
+        "flexibility",
+        "energy"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "knee_heavy",
+        "side_stretch"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटने पर भार — कम मोड़ें",
+          "alternative": "warrior-2",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "vrikshasana",
+      "name": {
+        "en": "Tree Pose",
+        "hi": "वृक्षासन",
+        "sa": "Vrikshasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "stress",
+        "back",
+        "energy"
+      ],
+      "defaultSeconds": 30,
+      "perSide": true,
+      "flags": [
+        "standing_balance"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "vertigo",
+          "level": "CAUTION",
+          "reasonHi": "दीवार का सहारा लें",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "पैर घुटने पर नहीं · पिंडली पर रखें",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "utkatasana",
+      "name": {
+        "en": "Chair Pose",
+        "hi": "उत्कटासन",
+        "sa": "Utkatasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "weightloss",
+        "energy"
+      ],
+      "defaultSeconds": 30,
+      "perSide": false,
+      "flags": [
+        "knee_heavy"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "AVOID",
+          "reasonHi": "घुटने पर सीधा भार",
+          "alternative": "tadasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "हाथ ऊपर कम समय",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "prasarita",
+      "name": {
+        "en": "Wide-Leg Forward Bend",
+        "hi": "प्रसारित पादोत्तानासन",
+        "sa": "Prasarita Padottanasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "stress"
+      ],
+      "defaultSeconds": 35,
+      "perSide": false,
+      "flags": [
+        "deep_forward_bend",
+        "head_down"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "सिर नीचे — धीरे उठें",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "glaucoma",
+          "level": "AVOID",
+          "reasonHi": "आँख का दबाव",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "AVOID",
+          "reasonHi": "चक्कर का खतरा",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "कमर सीधी · हल्का ही",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "low-lunge",
+      "name": {
+        "en": "Low Lunge",
+        "hi": "अश्व संचालनासन",
+        "sa": "Ashwa Sanchalanasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "weightloss",
+        "back"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "knee_heavy",
+        "hip_opener"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "पिछले घुटने के नीचे तकिया",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "downward-dog",
+      "name": {
+        "en": "Downward Facing Dog",
+        "hi": "अधोमुख श्वानासन",
+        "sa": "Adho Mukha Svanasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "weightloss",
+        "energy"
+      ],
+      "defaultSeconds": 35,
+      "perSide": false,
+      "flags": [
+        "wrist_load",
+        "head_down",
+        "shoulder_load"
+      ],
+      "shootBlock": "B",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "सिर नीचे — 20 सेकंड तक ही",
+          "alternative": "balasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "glaucoma",
+          "level": "AVOID",
+          "reasonHi": "आँख का दबाव बढ़ता है",
+          "alternative": "balasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "wrist_pain",
+          "level": "AVOID",
+          "reasonHi": "कलाई पर पूरा भार",
+          "alternative": "balasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "AVOID",
+          "reasonHi": "सिर नीचे से चक्कर",
+          "alternative": "balasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "तीसरी तिमाही में नहीं",
+          "alternative": "balasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "balasana",
+      "name": {
+        "en": "Child's Pose",
+        "hi": "बालासन",
+        "sa": "Balasana"
+      },
+      "category": "cooldown",
+      "difficulty": 1,
+      "goals": [
+        "stress",
+        "back",
+        "flexibility"
+      ],
+      "defaultSeconds": 45,
+      "perSide": false,
+      "flags": [
+        "knee_heavy"
+      ],
+      "shootBlock": "B",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटने के पीछे तकिया रखें",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "घुटने चौड़े करें ताकि पेट पर दबाव न पड़े",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "bhujangasana",
+      "name": {
+        "en": "Cobra Pose (gentle)",
+        "hi": "भुजंगासन",
+        "sa": "Bhujangasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "back",
+        "energy",
+        "flexibility"
+      ],
+      "defaultSeconds": 30,
+      "perSide": false,
+      "flags": [
+        "prone",
+        "backbend"
+      ],
+      "shootBlock": "C",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट के बल लेटना मना है",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव बढ़ता है",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "पेट की सर्जरी के 6 महीने तक नहीं",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "सिर्फ़ छाती तक उठें · कमर से नहीं",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "salabhasana",
+      "name": {
+        "en": "Locust Pose",
+        "hi": "शलभासन",
+        "sa": "Salabhasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "back",
+        "weightloss"
+      ],
+      "defaultSeconds": 25,
+      "perSide": false,
+      "flags": [
+        "prone",
+        "backbend"
+      ],
+      "shootBlock": "C",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट के बल लेटना मना है",
+          "alternative": "setu-bandhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "setu-bandhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "सर्जरी के 6 महीने तक नहीं",
+          "alternative": "setu-bandhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "एक पैर बारी-बारी उठाएँ",
+          "alternative": "setu-bandhasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "setu-bandhasana",
+      "name": {
+        "en": "Bridge Pose",
+        "hi": "सेतु बंधासन",
+        "sa": "Setu Bandhasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "back",
+        "weightloss",
+        "stress"
+      ],
+      "defaultSeconds": 35,
+      "perSide": false,
+      "flags": [
+        "supine",
+        "backbend",
+        "neck_load"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "neck_injury",
+          "level": "CAUTION",
+          "reasonHi": "गर्दन न घुमाएँ · सीधी रखें",
+          "alternative": "pawanmuktasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पहली तिमाही के बाद पीठ के बल नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "कम ऊँचाई तक · 20 सेकंड तक",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "supine-twist",
+      "name": {
+        "en": "Supine Twist",
+        "hi": "लेटकर ट्विस्ट",
+        "sa": "Supta Matsyendrasana"
+      },
+      "category": "cooldown",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "stress",
+        "flexibility"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "supine",
+        "twist"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पहली तिमाही के बाद पीठ के बल नहीं — करवट लेकर",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "घुटने कम नीचे ले जाएँ",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "पेट/रीढ़ की सर्जरी के बाद नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "pawanmuktasana",
+      "name": {
+        "en": "Knee to Chest",
+        "hi": "पवनमुक्तासन",
+        "sa": "Pawanmuktasana"
+      },
+      "category": "floor",
+      "difficulty": 1,
+      "goals": [
+        "back",
+        "stress",
+        "weightloss"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "supine"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट पर सीधा दबाव",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "सर्जरी के बाद नहीं",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "paschimottanasana",
+      "name": {
+        "en": "Seated Forward Bend",
+        "hi": "पश्चिमोत्तानासन",
+        "sa": "Paschimottanasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "stress"
+      ],
+      "defaultSeconds": 40,
+      "perSide": false,
+      "flags": [
+        "deep_forward_bend"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "slipped_disc",
+          "level": "AVOID",
+          "reasonHi": "गहरा आगे झुकाव — डिस्क पर दबाव",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "osteoporosis",
+          "level": "AVOID",
+          "reasonHi": "रीढ़ में फ्रैक्चर का खतरा",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "CAUTION",
+          "reasonHi": "हल्का ही · पेट न दबे",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "baddha-konasana",
+      "name": {
+        "en": "Butterfly Pose",
+        "hi": "बद्धकोणासन",
+        "sa": "Baddha Konasana"
+      },
+      "category": "floor",
+      "difficulty": 1,
+      "goals": [
+        "flexibility",
+        "stress",
+        "hip"
+      ],
+      "defaultSeconds": 40,
+      "perSide": false,
+      "flags": [
+        "hip_opener"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटनों के नीचे तकिया",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "janu-sirsasana",
+      "name": {
+        "en": "Head-to-Knee Pose",
+        "hi": "जानु शीर्षासन",
+        "sa": "Janu Sirsasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "stress"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "forward_bend",
+        "knee_heavy"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "कमर सीधी · हल्का ही झुकें",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "मुड़े घुटने के नीचे सहारा",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पैर खोलकर · पेट न दबे",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "slug": "malasana",
+      "name": {
+        "en": "Garland Pose (Squat)",
+        "hi": "मलासन",
+        "sa": "Malasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "hip",
+        "flexibility",
+        "weightloss"
+      ],
+      "defaultSeconds": 35,
+      "perSide": false,
+      "flags": [
+        "knee_heavy",
+        "hip_opener",
+        "deep_squat"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "AVOID",
+          "reasonHi": "गहरा स्क्वाट — घुटने पर पूरा भार",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "एड़ी के नीचे सहारा · दीवार का सहारा लें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "anjaneyasana",
+      "name": {
+        "en": "Crescent Lunge",
+        "hi": "अंजनेयासन",
+        "sa": "Anjaneyasana"
+      },
+      "category": "standing",
+      "difficulty": 2,
+      "goals": [
+        "flexibility",
+        "hip",
+        "energy"
+      ],
+      "defaultSeconds": 35,
+      "perSide": true,
+      "flags": [
+        "knee_heavy",
+        "backbend_mild",
+        "hip_opener"
+      ],
+      "shootBlock": "A",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "पिछले घुटने के नीचे तकिया",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "पीछे ज़्यादा न झुकें",
+          "alternative": "low-lunge",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "gomukhasana-arms",
+      "name": {
+        "en": "Cow-Face Arms",
+        "hi": "गोमुखासन (हाथ)",
+        "sa": "Gomukhasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "back",
+        "flexibility",
+        "stress"
+      ],
+      "defaultSeconds": 30,
+      "perSide": true,
+      "flags": [
+        "shoulder_load"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "shoulder_injury",
+          "level": "CAUTION",
+          "reasonHi": "पट्टा/तौलिया इस्तेमाल करें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "slug": "ustrasana",
+      "name": {
+        "en": "Camel Pose (gentle)",
+        "hi": "उष्ट्रासन",
+        "sa": "Ustrasana"
+      },
+      "category": "floor",
+      "difficulty": 3,
+      "goals": [
+        "back",
+        "energy",
+        "flexibility"
+      ],
+      "defaultSeconds": 25,
+      "perSide": false,
+      "flags": [
+        "backbend",
+        "neck_load",
+        "knee_heavy"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "AVOID",
+          "reasonHi": "गहरा बैकबेंड — ब्लड प्रेशर बढ़ाता है",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "heart",
+          "level": "AVOID",
+          "reasonHi": "छाती पर दबाव",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पूरा खुलता है",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "AVOID",
+          "reasonHi": "कमर पर गहरा दबाव",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "neck_injury",
+          "level": "CAUTION",
+          "reasonHi": "सिर पीछे न गिराएँ · ठुड्डी छाती की ओर",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "घुटने + गहरा बैकबेंड",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटनों के नीचे मोटी चटाई",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "CAUTION",
+          "reasonHi": "सिर पीछे से चक्कर",
+          "alternative": "bhujangasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "dhanurasana",
+      "name": {
+        "en": "Bow Pose",
+        "hi": "धनुरासन",
+        "sa": "Dhanurasana"
+      },
+      "category": "floor",
+      "difficulty": 3,
+      "goals": [
+        "back",
+        "energy",
+        "weightloss"
+      ],
+      "defaultSeconds": 20,
+      "perSide": false,
+      "flags": [
+        "prone",
+        "backbend"
+      ],
+      "shootBlock": "C",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट के बल + गहरा बैकबेंड",
+          "alternative": "setu-bandhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "AVOID",
+          "reasonHi": "ब्लड प्रेशर बढ़ाता है",
+          "alternative": "salabhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "heart",
+          "level": "AVOID",
+          "reasonHi": "छाती और पेट पर दबाव",
+          "alternative": "salabhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर पूरा दबाव",
+          "alternative": "salabhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "AVOID",
+          "reasonHi": "कमर पर गहरा दबाव",
+          "alternative": "salabhasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "सर्जरी के 6 महीने तक नहीं",
+          "alternative": "salabhasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "ardha-matsyendrasana",
+      "name": {
+        "en": "Seated Half Twist",
+        "hi": "अर्ध मत्स्येन्द्रासन",
+        "sa": "Ardha Matsyendrasana"
+      },
+      "category": "floor",
+      "difficulty": 2,
+      "goals": [
+        "back",
+        "flexibility",
+        "weightloss"
+      ],
+      "defaultSeconds": 30,
+      "perSide": true,
+      "flags": [
+        "twist",
+        "knee_heavy"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "सिर्फ़ खुला ट्विस्ट · पेट न दबे",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "हल्का ही घुमाएँ",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "पेट/रीढ़ की सर्जरी के बाद नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "पैर क्रॉस न करें · सीधा रखें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "slug": "phalakasana",
+      "name": {
+        "en": "Plank Pose",
+        "hi": "फलकासन",
+        "sa": "Phalakasana"
+      },
+      "category": "core",
+      "difficulty": 2,
+      "goals": [
+        "weightloss",
+        "back",
+        "energy"
+      ],
+      "defaultSeconds": 25,
+      "perSide": false,
+      "flags": [
+        "wrist_load",
+        "core",
+        "prone_facing"
+      ],
+      "shootBlock": "B",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "दूसरी तिमाही के बाद नहीं — दीवार पर करें",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "wrist_pain",
+          "level": "AVOID",
+          "reasonHi": "कलाई पर पूरा भार",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "CAUTION",
+          "reasonHi": "कमर न झुके — घुटने ज़मीन पर रखें",
+          "alternative": "ardha-phalakasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "ardha-phalakasana",
+      "name": {
+        "en": "Half Plank (knees down)",
+        "hi": "अर्ध फलकासन",
+        "sa": "Ardha Phalakasana"
+      },
+      "category": "core",
+      "difficulty": 3,
+      "goals": [
+        "weightloss",
+        "energy"
+      ],
+      "defaultSeconds": 20,
+      "perSide": false,
+      "flags": [
+        "wrist_load",
+        "core",
+        "knee_heavy"
+      ],
+      "shootBlock": "B",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "wrist_pain",
+          "level": "AVOID",
+          "reasonHi": "कलाई पर भार",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "knee_arthritis",
+          "level": "CAUTION",
+          "reasonHi": "घुटनों के नीचे सहारा",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "cat-cow",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "navasana",
+      "name": {
+        "en": "Half Boat Pose",
+        "hi": "नावासन",
+        "sa": "Ardha Navasana"
+      },
+      "category": "core",
+      "difficulty": 3,
+      "goals": [
+        "weightloss",
+        "core"
+      ],
+      "defaultSeconds": 20,
+      "perSide": false,
+      "flags": [
+        "core",
+        "supine_seated"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "AVOID",
+          "reasonHi": "पेट की मसल्स पर पूरा ज़ोर",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "hernia",
+          "level": "AVOID",
+          "reasonHi": "पेट पर दबाव",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "slipped_disc",
+          "level": "AVOID",
+          "reasonHi": "कमर पर दबाव",
+          "alternative": "pawanmuktasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "recent_surgery",
+          "level": "AVOID",
+          "reasonHi": "सर्जरी के बाद नहीं",
+          "alternative": "baddha-konasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "viparita-karani",
+      "name": {
+        "en": "Legs Up The Wall",
+        "hi": "विपरीत करणी",
+        "sa": "Viparita Karani"
+      },
+      "category": "cooldown",
+      "difficulty": 1,
+      "goals": [
+        "stress",
+        "back",
+        "sleep"
+      ],
+      "defaultSeconds": 90,
+      "perSide": false,
+      "flags": [
+        "supine",
+        "legs_up",
+        "mild_inversion"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "glaucoma",
+          "level": "AVOID",
+          "reasonHi": "आँख का दबाव बढ़ता है",
+          "alternative": "shavasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "60 सेकंड तक ही · धीरे उतरें",
+          "alternative": "shavasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "heart",
+          "level": "CAUTION",
+          "reasonHi": "डॉक्टर से पूछकर ही",
+          "alternative": "shavasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "तीसरी तिमाही में नहीं",
+          "alternative": "shavasana",
+          "status": "DRAFT"
+        },
+        {
+          "condition": "vertigo",
+          "level": "CAUTION",
+          "reasonHi": "धीरे-धीरे उतरें",
+          "alternative": "shavasana",
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "slug": "shavasana",
+      "name": {
+        "en": "Corpse Pose",
+        "hi": "शवासन",
+        "sa": "Shavasana"
+      },
+      "category": "cooldown",
+      "difficulty": 1,
+      "goals": [
+        "stress",
+        "sleep"
+      ],
+      "defaultSeconds": 180,
+      "perSide": false,
+      "flags": [
+        "supine"
+      ],
+      "shootBlock": "D",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "पहली तिमाही के बाद बाईं करवट लेकर लेटें",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "anulom-vilom",
+      "name": {
+        "en": "Alternate Nostril Breathing",
+        "hi": "अनुलोम-विलोम",
+        "sa": "Nadi Shodhana"
+      },
+      "category": "breath",
+      "difficulty": 1,
+      "goals": [
+        "stress",
+        "sleep",
+        "energy"
+      ],
+      "defaultSeconds": 120,
+      "perSide": false,
+      "flags": [
+        "breath",
+        "no_retention"
+      ],
+      "shootBlock": "E",
+      "status": "DRAFT",
+      "clipUrl": null,
+      "audio": {
+        "hi": null,
+        "en": null
+      },
+      "avoid": [
+        {
+          "condition": "high_bp",
+          "level": "CAUTION",
+          "reasonHi": "साँस रोकना नहीं — सिर्फ़ धीरे अंदर-बाहर",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "pregnancy",
+          "level": "CAUTION",
+          "reasonHi": "साँस रोकना नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        },
+        {
+          "condition": "heart",
+          "level": "CAUTION",
+          "reasonHi": "साँस रोकना नहीं",
+          "alternative": null,
+          "status": "DRAFT"
+        }
+      ]
+    }
+  ]
+}
