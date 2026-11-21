@@ -1,8 +1,10 @@
 {
-  "version": 1,
-  "generatedFrom": [
+  "version": 2,
+  "generatedBy": "content/build.py",
+  "sources": [
     "poses.csv",
-    "avoid-rules.csv"
+    "avoid-rules.csv",
+    "pose-steps.json"
   ],
   "poses": [
     {
@@ -31,6 +33,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "सीधे बैठें या खड़े हों, कंधे ढीले छोड़ें",
+          "साँस छोड़ते हुए सिर दाएँ कंधे की ओर झुकाएँ, 3 साँस रुकें",
+          "सिर बीच में लाएँ, फिर बाएँ कंधे की ओर, 3 साँस",
+          "आख़िर में ठुड्डी छाती की ओर लाएँ, 3 साँस, सिर उठाएँ"
+        ],
+        "en": [
+          "Sit or stand tall and let your shoulders drop",
+          "Exhale and tilt your head towards the right shoulder, hold 3 breaths",
+          "Return to centre, then tilt left, hold 3 breaths",
+          "Finally drop the chin towards the chest for 3 breaths, then lift"
+        ]
+      },
+      "mistake": {
+        "hi": "सिर पीछे गिराना या झटके से गोल घुमाना — गर्दन के लिए ख़तरनाक है",
+        "en": "Dropping the head back or rolling it fast in circles — risky for the neck"
+      },
+      "easier": {
+        "hi": "हाथ से सिर न खींचें; जितना अपने आप जाए उतना ही",
+        "en": "Never pull with your hand; go only as far as the head goes on its own"
+      },
+      "benefit": {
+        "hi": "लैपटॉप से आई गर्दन और कंधे की अकड़न खोलता है",
+        "en": "Releases the neck and shoulder stiffness that builds up at a laptop"
       },
       "avoid": [
         {
@@ -74,6 +102,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "सीधे बैठें या खड़े हों, हाथ ढीले लटकने दें",
+          "साँस लेते हुए दोनों कंधे कान की ओर उठाएँ",
+          "साँस छोड़ते हुए कंधे पीछे ले जाकर नीचे घुमाएँ — 5 बार",
+          "फिर उल्टी दिशा में 5 बार"
+        ],
+        "en": [
+          "Sit or stand tall with your arms hanging loose",
+          "Inhale and lift both shoulders towards your ears",
+          "Exhale and roll them back and down — 5 times",
+          "Then reverse the direction for 5 more"
+        ]
+      },
+      "mistake": {
+        "hi": "तेज़ और छोटे घेरे बनाना — धीरे और बड़े घेरे बनाएँ",
+        "en": "Fast, tiny circles — go slow and make them big"
+      },
+      "easier": {
+        "hi": "एक-एक कंधा अलग-अलग घुमाएँ",
+        "en": "Roll one shoulder at a time"
+      },
+      "benefit": {
+        "hi": "कंधे और ऊपरी पीठ का तनाव कम करता है",
+        "en": "Eases tension in the shoulders and upper back"
+      },
       "avoid": []
     },
     {
@@ -103,6 +157,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "घुटने और हथेलियाँ ज़मीन पर, हाथ कंधे के नीचे, घुटने कूल्हे के नीचे",
+          "साँस लेते हुए छाती और कूल्हा ऊपर, पेट नीचे ढीला (गाय)",
+          "साँस छोड़ते हुए पीठ गोल करें, ठुड्डी छाती की ओर (बिल्ली)",
+          "6 से 8 बार दोहराएँ, साँस के साथ चलते रहें"
+        ],
+        "en": [
+          "Hands and knees on the mat — wrists under shoulders, knees under hips",
+          "Inhale, lift the chest and tailbone, let the belly soften (Cow)",
+          "Exhale, round the back and draw the chin to the chest (Cat)",
+          "Repeat 6 to 8 times, moving with the breath"
+        ]
+      },
+      "mistake": {
+        "hi": "गर्दन को झटके से ऊपर उठाना; साँस रोककर करना",
+        "en": "Snapping the head up, or holding the breath"
+      },
+      "easier": {
+        "hi": "कलाई दुखे तो मुट्ठी बनाकर या कोहनी पर आएँ; घुटने के नीचे मोटा कपड़ा",
+        "en": "If the wrists hurt, make fists or come onto your forearms; pad under the knees"
+      },
+      "benefit": {
+        "hi": "पूरी रीढ़ को गर्म करता है — कमर दर्द में सबसे सुरक्षित शुरुआत",
+        "en": "Warms the whole spine — the safest starting point for a stiff back"
       },
       "avoid": [
         {
@@ -148,6 +228,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पैर कूल्हे जितने चौड़े, दोनों हाथ ऊपर उठाकर उँगलियाँ फँसाएँ",
+          "साँस छोड़ते हुए दाईं तरफ़ झुकें",
+          "सिर्फ़ साइड में झुकें — आगे या पीछे नहीं। दोनों कूल्हे एक जगह रहें",
+          "3 साँस रुकें, बीच में आएँ, फिर बाईं तरफ़"
+        ],
+        "en": [
+          "Feet hip-width apart, reach both arms up and interlace the fingers",
+          "Exhale and bend to the right",
+          "Bend sideways only — not forward or back. Keep both hips level",
+          "Hold 3 breaths, come to centre, then bend left"
+        ]
+      },
+      "mistake": {
+        "hi": "आगे झुक जाना और एक कूल्हा बाहर निकाल देना",
+        "en": "Leaning forward and pushing one hip out to the side"
+      },
+      "easier": {
+        "hi": "एक हाथ कमर पर रखें और सिर्फ़ दूसरा ऊपर उठाएँ",
+        "en": "Keep one hand on your hip and lift just the other arm"
+      },
+      "benefit": {
+        "hi": "पसलियों और कमर की साइड खोलता है, साँस के लिए जगह बनाता है",
+        "en": "Opens the ribs and side waist, making room for the breath"
+      },
       "avoid": [
         {
           "condition": "slipped_disc",
@@ -183,6 +289,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "हाथ सामने फैलाएँ, मुट्ठी हल्की बंद करें",
+          "कलाई 10 बार एक दिशा, 10 बार दूसरी दिशा घुमाएँ",
+          "बैठकर टखना 10-10 बार दोनों दिशा में घुमाएँ",
+          "उँगलियाँ पूरी खोलें और बंद करें — 10 बार"
+        ],
+        "en": [
+          "Reach your arms forward and make soft fists",
+          "Circle the wrists 10 times one way, 10 times the other",
+          "Sitting down, circle each ankle 10 times each way",
+          "Spread the fingers wide and close them — 10 times"
+        ]
+      },
+      "mistake": {
+        "hi": "ज़ोर लगाना — ये सिर्फ़ जोड़ खोलने के लिए है",
+        "en": "Forcing it — this is only to free up the joints"
+      },
+      "easier": {
+        "hi": "कहीं भी बैठकर कर सकते हैं, कुर्सी पर भी",
+        "en": "Can be done sitting anywhere, even on a chair"
+      },
+      "benefit": {
+        "hi": "सुबह की जकड़न खोलता है और किसी के लिए भी सुरक्षित है",
+        "en": "Loosens morning stiffness and is safe for absolutely everyone"
+      },
       "avoid": []
     },
     {
@@ -212,6 +344,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "सुखासन में सीधे बैठें, दोनों कूल्हे ज़मीन पर",
+          "बायाँ हाथ दाएँ घुटने पर, दायाँ हाथ पीछे ज़मीन पर रखें",
+          "साँस लेते हुए रीढ़ लंबी करें, छोड़ते हुए दाईं ओर घूमें",
+          "3 साँस रुकें, सामने आएँ, फिर बाईं तरफ़"
+        ],
+        "en": [
+          "Sit cross-legged and tall, both hips grounded",
+          "Left hand on the right knee, right hand on the floor behind you",
+          "Inhale to lengthen the spine, exhale to turn right",
+          "Hold 3 breaths, unwind to centre, then twist left"
+        ]
+      },
+      "mistake": {
+        "hi": "हाथ से ज़बरदस्ती घुमाना और कंधा उठा लेना",
+        "en": "Cranking the twist with your arm and hiking the shoulder up"
+      },
+      "easier": {
+        "hi": "कुर्सी पर बैठकर करें, कुर्सी की पीठ पकड़ें",
+        "en": "Do it on a chair, holding the chair back"
+      },
+      "benefit": {
+        "hi": "रीढ़ की गतिशीलता बढ़ाता है, पीठ का तनाव खोलता है",
+        "en": "Improves spinal mobility and releases back tension"
       },
       "avoid": [
         {
@@ -255,6 +413,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पैर कूल्हे जितने चौड़े, वज़न दोनों पैरों पर बराबर",
+          "घुटने ढीले रखें (ताले में बंद नहीं), पेट हल्का अंदर",
+          "कंधे पीछे और नीचे, हाथ शरीर के साइड में",
+          "सिर से एड़ी तक एक सीधी रेखा महसूस करें, 5 साँस"
+        ],
+        "en": [
+          "Feet hip-width apart, weight even on both feet",
+          "Keep the knees soft (not locked), belly gently drawn in",
+          "Shoulders back and down, arms by your sides",
+          "Feel one straight line from head to heel, 5 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटने ताले में बंद करना और कमर पीछे धकेलना",
+        "en": "Locking the knees and pushing the lower back forward"
+      },
+      "easier": {
+        "hi": "दीवार से पीठ लगाकर खड़े हों और सीधी रेखा महसूस करें",
+        "en": "Stand with your back to a wall to feel the line"
+      },
+      "benefit": {
+        "hi": "हर खड़े पोज़ का आधार; posture सुधारता है",
+        "en": "The base of every standing pose; retrains your posture"
+      },
       "avoid": []
     },
     {
@@ -283,6 +467,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "ताड़ासन से शुरू करें",
+          "साँस लेते हुए दोनों हाथ सामने से ऊपर उठाएँ",
+          "कंधे कान से दूर नीचे रखें, पसलियाँ बाहर न निकलें",
+          "उँगलियों से ऊपर की ओर खिंचें, 5 साँस"
+        ],
+        "en": [
+          "Start in Tadasana",
+          "Inhale and sweep both arms up overhead",
+          "Keep the shoulders down away from the ears, ribs in",
+          "Reach up through the fingertips, 5 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "कंधे कान तक उठा लेना और कमर पीछे धकेल देना",
+        "en": "Shrugging up to the ears and arching the low back"
+      },
+      "easier": {
+        "hi": "हाथ कंधे जितने चौड़े रखें, जोड़ने की ज़रूरत नहीं",
+        "en": "Keep the arms shoulder-width apart instead of joining them"
+      },
+      "benefit": {
+        "hi": "पूरे शरीर को खोलता है और साँस गहरी करता है",
+        "en": "Lengthens the whole body and deepens the breath"
       },
       "avoid": [
         {
@@ -321,6 +531,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "ताड़ासन से, घुटने हल्के मोड़ लें",
+          "कूल्हे से आगे झुकें — कमर से नहीं",
+          "हाथ पिंडली, टखने या ज़मीन पर रखें, जहाँ तक आसानी से जाए",
+          "गर्दन पूरी ढीली छोड़ें, सिर लटका रहे, 5 साँस",
+          "घुटने मोड़कर धीरे-धीरे ऊपर आएँ — झटके से नहीं"
+        ],
+        "en": [
+          "From Tadasana, soften your knees",
+          "Hinge forward from the hips — not from the waist",
+          "Rest your hands on the shins, ankles or floor, wherever they reach easily",
+          "Let the neck go completely, head hanging heavy, 5 breaths",
+          "Bend the knees and roll up slowly — never snap up"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटने ताले में बंद करके कमर गोल कर लेना",
+        "en": "Locking the knees and rounding the lower back"
+      },
+      "easier": {
+        "hi": "घुटने ज़्यादा मोड़ें, या हाथ कुर्सी/दीवार पर रखें",
+        "en": "Bend the knees more, or rest your hands on a chair or wall"
+      },
+      "benefit": {
+        "hi": "हैमस्ट्रिंग और कमर खोलता है, दिमाग़ शांत करता है",
+        "en": "Opens the hamstrings and low back, and calms the mind"
       },
       "avoid": [
         {
@@ -393,6 +631,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "उत्तानासन से हाथ पिंडली पर रखें",
+          "साँस लेते हुए आधा ऊपर आएँ",
+          "कमर बिल्कुल सीधी — टेबल जैसी सपाट",
+          "छाती आगे, सिर रीढ़ की लाइन में, 5 साँस"
+        ],
+        "en": [
+          "From Uttanasana, slide your hands to your shins",
+          "Inhale and come halfway up",
+          "Make the back completely flat — like a tabletop",
+          "Chest forward, head in line with the spine, 5 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर गोल रह जाना — यही पोज़ का पूरा मक़सद है",
+        "en": "Leaving the back rounded — a flat back is the entire point"
+      },
+      "easier": {
+        "hi": "हाथ कुर्सी या दीवार पर रखकर करें",
+        "en": "Place your hands on a chair or wall instead"
+      },
+      "benefit": {
+        "hi": "कमर की सही पकड़ सिखाता है — posture के लिए सबसे अच्छा पोज़",
+        "en": "Teaches a strong flat back — the best pose for posture"
+      },
       "avoid": [
         {
           "condition": "slipped_disc",
@@ -430,6 +694,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "दायाँ पैर आगे, बायाँ लगभग एक मीटर पीछे, पिछला पैर 45° बाहर",
+          "दायाँ घुटना मोड़ें — टखने के ठीक ऊपर, आगे नहीं",
+          "दोनों कूल्हे सामने की ओर घुमाएँ",
+          "साँस लेते हुए हाथ ऊपर, 5 साँस, फिर पैर बदलें"
+        ],
+        "en": [
+          "Right foot forward, left foot about a metre back, back foot turned 45°",
+          "Bend the right knee — stacked over the ankle, not past it",
+          "Turn both hips to face forward",
+          "Inhale the arms up, hold 5 breaths, then switch sides"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटना अंदर गिर जाना, या पिछली एड़ी उठ जाना",
+        "en": "Letting the front knee cave in, or the back heel lift"
+      },
+      "easier": {
+        "hi": "घुटना कम मोड़ें; हाथ कमर पर रखें",
+        "en": "Bend the knee less; keep your hands on your hips"
+      },
+      "benefit": {
+        "hi": "टाँगें मज़बूत करता है, कूल्हा खोलता है, शरीर में गर्मी लाता है",
+        "en": "Builds leg strength, opens the hips and warms the whole body"
       },
       "avoid": [
         {
@@ -475,6 +765,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पैर लगभग एक मीटर चौड़े, दायाँ पैर 90° बाहर",
+          "दायाँ घुटना मोड़ें, टखने के ऊपर रखें",
+          "हाथ ज़मीन के समानांतर दोनों तरफ़ फैलाएँ",
+          "दाएँ हाथ की उँगलियों को देखें, 5 साँस, फिर पैर बदलें"
+        ],
+        "en": [
+          "Feet about a metre apart, right foot turned out 90°",
+          "Bend the right knee, keeping it over the ankle",
+          "Extend the arms out wide, parallel to the floor",
+          "Gaze past your right fingertips, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "शरीर आगे झुक जाना — सीधा खड़ा रहना है",
+        "en": "Leaning the torso forward — stay stacked upright"
+      },
+      "easier": {
+        "hi": "घुटना कम मोड़ें; पैर कम चौड़े रखें",
+        "en": "Bend the knee less; take a narrower stance"
+      },
+      "benefit": {
+        "hi": "जाँघ, कूल्हा और कंधे एक साथ मज़बूत करता है",
+        "en": "Strengthens thighs, hips and shoulders at once"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -512,6 +828,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "पैर चौड़े, दायाँ पैर 90° बाहर, बायाँ थोड़ा अंदर",
+          "साँस छोड़ते हुए दाएँ कूल्हे से साइड में झुकें",
+          "दायाँ हाथ पिंडली पर, बायाँ हाथ सीधा ऊपर",
+          "छाती खोलें, सामने देखें, 5 साँस, फिर दूसरी तरफ़"
+        ],
+        "en": [
+          "Feet wide, right foot turned out 90°, left foot slightly in",
+          "Exhale and reach sideways over the right hip",
+          "Right hand on the shin, left arm straight up",
+          "Open the chest, look ahead, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर से आगे झुकना और छाती ज़मीन की ओर मोड़ लेना",
+        "en": "Folding forward and turning the chest towards the floor"
+      },
+      "easier": {
+        "hi": "हाथ पिंडली या ब्लॉक पर रखें — ज़मीन तक जाना ज़रूरी नहीं",
+        "en": "Keep the hand on the shin or a block — reaching the floor is not the goal"
+      },
+      "benefit": {
+        "hi": "कमर की साइड, हैमस्ट्रिंग और छाती तीनों खोलता है",
+        "en": "Opens the side waist, hamstrings and chest together"
       },
       "avoid": [
         {
@@ -565,6 +907,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "वीरभद्रासन 2 से शुरू करें",
+          "दाईं कोहनी दाईं जाँघ पर रखें",
+          "बायाँ हाथ कान के ऊपर से आगे की ओर खिंचें",
+          "एड़ी से उँगलियों तक एक लंबी रेखा बनाएँ, 5 साँस, पैर बदलें"
+        ],
+        "en": [
+          "Begin in Warrior II",
+          "Rest your right forearm on your right thigh",
+          "Reach the left arm forward over your ear",
+          "Make one long line from heel to fingertips, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "छाती ज़मीन की ओर मुड़ जाना और ऊपर का कंधा गिर जाना",
+        "en": "Letting the chest turn down and the top shoulder collapse"
+      },
+      "easier": {
+        "hi": "हाथ कमर पर रखें; घुटना कम मोड़ें",
+        "en": "Keep the top hand on your hip; bend the knee less"
+      },
+      "benefit": {
+        "hi": "टाँगें मज़बूत करता है और पूरी साइड खोलता है",
+        "en": "Strengthens the legs and lengthens the entire side body"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -601,6 +969,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "ताड़ासन में खड़े हों, वज़न बाएँ पैर पर ले आएँ",
+          "दाएँ पैर का तलवा बाईं पिंडली या जाँघ पर रखें — घुटने पर कभी नहीं",
+          "हाथ छाती के सामने जोड़ें और स्थिर हो जाएँ",
+          "चाहें तो हाथ ऊपर उठाएँ, 5 साँस, फिर दूसरा पैर"
+        ],
+        "en": [
+          "Stand in Tadasana and shift your weight onto the left foot",
+          "Place the right sole on the left calf or thigh — never on the knee",
+          "Bring your palms together at the chest and steady yourself",
+          "If you like, reach the arms up, 5 breaths, then switch legs"
+        ]
+      },
+      "mistake": {
+        "hi": "पैर सीधे घुटने के किनारे रखना — जोड़ पर दबाव पड़ता है",
+        "en": "Pressing the foot into the side of the knee — it loads the joint"
+      },
+      "easier": {
+        "hi": "दीवार का सहारा लें, या पैर की उँगली ज़मीन पर ही रखें",
+        "en": "Use a wall, or keep the toes touching the floor"
+      },
+      "benefit": {
+        "hi": "संतुलन और एकाग्रता बढ़ाता है, टखना मज़बूत करता है",
+        "en": "Builds balance and focus, and strengthens the ankle"
       },
       "avoid": [
         {
@@ -645,6 +1039,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पैर कूल्हे जितने चौड़े रखें",
+          "साँस छोड़ते हुए घुटने मोड़ें और कूल्हा पीछे ले जाएँ",
+          "वज़न एड़ी पर, घुटने टखने से आगे न जाएँ",
+          "हाथ ऊपर उठाएँ, छाती खुली, 5 साँस"
+        ],
+        "en": [
+          "Stand with your feet hip-width apart",
+          "Exhale, bend the knees and sit the hips back",
+          "Weight in the heels, knees behind the toes",
+          "Reach the arms up, chest open, 5 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटने आगे निकल जाना और वज़न पंजों पर आ जाना",
+        "en": "Knees shooting forward with the weight on the toes"
+      },
+      "easier": {
+        "hi": "दीवार से पीठ लगाकर करें और कम बैठें",
+        "en": "Do it with your back on a wall and sit less deep"
+      },
+      "benefit": {
+        "hi": "जाँघ और कूल्हा मज़बूत करता है, कैलोरी तेज़ जलाता है",
+        "en": "Strengthens thighs and hips, and burns energy fast"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -688,6 +1108,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "पैर लगभग एक मीटर चौड़े, उँगलियाँ थोड़ी अंदर",
+          "हाथ कमर पर, साँस लेते हुए रीढ़ लंबी करें",
+          "साँस छोड़ते हुए कूल्हे से आगे झुकें",
+          "हाथ ज़मीन या ब्लॉक पर, सिर लटका, 5 साँस",
+          "हाथ कमर पर रखकर धीरे-धीरे ऊपर आएँ"
+        ],
+        "en": [
+          "Step your feet about a metre apart, toes slightly in",
+          "Hands on hips, inhale to lengthen the spine",
+          "Exhale and fold forward from the hips",
+          "Hands to the floor or a block, head hanging, 5 breaths",
+          "Hands back to the hips and rise slowly"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर गोल करके सिर ज़मीन तक ले जाने की कोशिश",
+        "en": "Rounding the back to force the head to the floor"
+      },
+      "easier": {
+        "hi": "घुटने हल्के मोड़ें; हाथ कुर्सी पर रखें",
+        "en": "Soften the knees; rest your hands on a chair"
+      },
+      "benefit": {
+        "hi": "हैमस्ट्रिंग और अंदरूनी जाँघ खोलता है, दिमाग़ शांत करता है",
+        "en": "Opens the hamstrings and inner thighs, and quiets the mind"
       },
       "avoid": [
         {
@@ -748,6 +1196,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "घुटनों पर आएँ",
+          "दायाँ पैर आगे रखें, घुटना टखने के ठीक ऊपर",
+          "बायाँ घुटना पीछे ज़मीन पर, कूल्हा धीरे नीचे दबाएँ",
+          "छाती ऊपर, हाथ ज़मीन या जाँघ पर, 5 साँस, फिर पैर बदलें"
+        ],
+        "en": [
+          "Come onto your knees",
+          "Step the right foot forward, knee over the ankle",
+          "Left knee stays down, gently sink the hips",
+          "Lift the chest, hands on the floor or thigh, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "आगे का घुटना टखने से बहुत आगे निकल जाना",
+        "en": "Letting the front knee travel far past the ankle"
+      },
+      "easier": {
+        "hi": "पीछे के घुटने के नीचे मोड़ा हुआ कपड़ा या तकिया रखें",
+        "en": "Fold a cloth or cushion under the back knee"
+      },
+      "benefit": {
+        "hi": "कूल्हे के सामने का हिस्सा खोलता है — दिन भर बैठने वालों के लिए ज़रूरी",
+        "en": "Opens the front of the hip — essential if you sit all day"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -786,6 +1260,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "घुटने और हाथ ज़मीन पर, हाथ कंधे के नीचे",
+          "उँगलियाँ फैलाएँ और हथेली पूरी ज़मीन पर दबाएँ",
+          "साँस छोड़ते हुए कूल्हा ऊपर और पीछे उठाएँ",
+          "घुटने हल्के मोड़े रखें — एड़ी ऊपर रह सकती है, 5 साँस",
+          "घुटने नीचे रखें और बालासन में आराम करें"
+        ],
+        "en": [
+          "Hands and knees down, wrists under the shoulders",
+          "Spread your fingers and press the whole palm into the mat",
+          "Exhale and lift the hips up and back",
+          "Keep the knees soft — the heels may stay lifted, 5 breaths",
+          "Lower the knees and rest in Child's Pose"
+        ]
+      },
+      "mistake": {
+        "hi": "कंधे कान तक चढ़ जाना और कमर गोल हो जाना",
+        "en": "Shoulders creeping to the ears and the low back rounding"
+      },
+      "easier": {
+        "hi": "घुटने ज़्यादा मोड़ें; कलाई दुखे तो बालासन करें",
+        "en": "Bend the knees more; if the wrists hurt, do Child's Pose instead"
+      },
+      "benefit": {
+        "hi": "पूरे शरीर को खींचता है — हैमस्ट्रिंग, पिंडली, कंधे, पीठ",
+        "en": "Stretches the whole body — hamstrings, calves, shoulders, back"
       },
       "avoid": [
         {
@@ -852,6 +1354,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "घुटनों पर बैठें, कूल्हा एड़ियों पर",
+          "घुटने चौड़े करें ताकि पेट को जगह मिले",
+          "माथा ज़मीन पर रखें, हाथ आगे या पीछे",
+          "8 से 10 धीमी साँस — यहाँ कुछ करना नहीं है"
+        ],
+        "en": [
+          "Kneel and sit your hips back onto your heels",
+          "Take the knees wide so the belly has room",
+          "Rest your forehead on the mat, arms forward or back",
+          "Take 8 to 10 slow breaths — there is nothing to do here"
+        ]
+      },
+      "mistake": {
+        "hi": "कूल्हा एड़ी तक न पहुँचने पर ज़ोर लगाना",
+        "en": "Forcing the hips down when they don't reach the heels"
+      },
+      "easier": {
+        "hi": "जाँघ और पिंडली के बीच तकिया रखें; माथे के नीचे भी",
+        "en": "Put a cushion between the thighs and calves, and under the forehead"
+      },
+      "benefit": {
+        "hi": "कमर का तनाव खोलता है और शरीर को शांत करता है — कभी भी कर सकते हैं",
+        "en": "Releases the low back and settles the nervous system — safe any time"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -896,6 +1424,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "पेट के बल लेटें, हाथ कंधे के नीचे, कोहनी शरीर से सटी",
+          "माथा ज़मीन पर, पैर जुड़े और सीधे",
+          "साँस लेते हुए सिर्फ़ छाती उठाएँ — नाभि ज़मीन पर रहनी चाहिए",
+          "कंधे नीचे और पीछे, गर्दन लंबी, 3 से 5 साँस",
+          "साँस छोड़ते हुए धीरे नीचे आएँ"
+        ],
+        "en": [
+          "Lie on your belly, hands under the shoulders, elbows hugging in",
+          "Forehead down, legs together and straight",
+          "Inhale and lift only the chest — the navel stays on the mat",
+          "Shoulders down and back, neck long, 3 to 5 breaths",
+          "Exhale and lower all the way down"
+        ]
+      },
+      "mistake": {
+        "hi": "हाथ से धक्का देकर कमर से ऊपर उठना और कंधे कान तक चढ़ा लेना",
+        "en": "Pushing up with the arms, hinging from the low back and shrugging the shoulders"
+      },
+      "easier": {
+        "hi": "कोहनी ज़मीन पर रखकर स्फिंक्स पोज़ करें — कमर पर बहुत कम दबाव",
+        "en": "Do Sphinx with the forearms down instead — far less load on the low back"
+      },
+      "benefit": {
+        "hi": "पीठ की मांसपेशियाँ मज़बूत करता है और झुकी हुई posture खोलता है",
+        "en": "Strengthens the back muscles and undoes a hunched posture"
       },
       "avoid": [
         {
@@ -954,6 +1510,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "पेट के बल लेटें, हाथ शरीर के पास, हथेली नीचे",
+          "माथा या ठुड्डी ज़मीन पर",
+          "साँस लेते हुए छाती और दोनों पैर थोड़ा-सा उठाएँ",
+          "गर्दन ढीली, नज़र नीचे, 3 से 5 साँस",
+          "धीरे नीचे आएँ और एक गाल ज़मीन पर रखकर आराम करें"
+        ],
+        "en": [
+          "Lie on your belly, arms alongside the body, palms down",
+          "Forehead or chin resting on the mat",
+          "Inhale and lift the chest and both legs just a little",
+          "Neck soft, gaze down, 3 to 5 breaths",
+          "Lower slowly and rest with one cheek on the mat"
+        ]
+      },
+      "mistake": {
+        "hi": "गर्दन पीछे खींचकर ऊपर देखने की कोशिश",
+        "en": "Craning the neck to look up"
+      },
+      "easier": {
+        "hi": "एक-एक पैर बारी-बारी उठाएँ, दोनों साथ नहीं",
+        "en": "Lift one leg at a time instead of both"
+      },
+      "benefit": {
+        "hi": "कमर और ऊपरी पीठ दोनों मज़बूत करता है",
+        "en": "Strengthens both the low back and the upper back"
       },
       "avoid": [
         {
@@ -1015,6 +1599,34 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पीठ के बल लेटें, घुटने मोड़ें, पैर कूल्हे जितने चौड़े",
+          "एड़ी कूल्हे के पास लाएँ, हाथ साइड में हथेली नीचे",
+          "पैर दबाते हुए कूल्हा ऊपर उठाएँ",
+          "गर्दन सीधी रखें — बिल्कुल न घुमाएँ, 5 साँस",
+          "रीढ़ को एक-एक हिस्सा करके नीचे रखें"
+        ],
+        "en": [
+          "Lie on your back, knees bent, feet hip-width apart",
+          "Heels close to the hips, arms by your sides, palms down",
+          "Press through the feet and lift the hips",
+          "Keep the neck completely still — never turn it, 5 breaths",
+          "Lower the spine down one vertebra at a time"
+        ]
+      },
+      "mistake": {
+        "hi": "गर्दन घुमाना, या कूल्हा बहुत ऊपर ले जाकर कमर दबा देना",
+        "en": "Turning the head, or lifting so high that the low back compresses"
+      },
+      "easier": {
+        "hi": "कूल्हे के नीचे तकिया रखकर आराम से लेटे रहें (supported bridge)",
+        "en": "Slide a cushion under the hips and simply rest there (supported bridge)"
+      },
+      "benefit": {
+        "hi": "कूल्हा और कमर मज़बूत करता है, छाती खोलता है",
+        "en": "Strengthens the hips and low back while opening the chest"
+      },
       "avoid": [
         {
           "condition": "neck_injury",
@@ -1067,6 +1679,34 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पीठ के बल लेटें, घुटने मोड़कर छाती के पास लाएँ",
+          "दोनों हाथ कंधे की सीध में फैलाएँ",
+          "साँस छोड़ते हुए घुटने दाईं ओर ज़मीन की तरफ़ ले जाएँ",
+          "सिर बाईं ओर घुमाएँ, दोनों कंधे ज़मीन पर रखें, 8 साँस",
+          "बीच में आएँ और दूसरी तरफ़ करें"
+        ],
+        "en": [
+          "Lie on your back and draw the knees towards your chest",
+          "Open both arms out in line with the shoulders",
+          "Exhale and let the knees drop to the right",
+          "Turn your head left, keeping both shoulders down, 8 breaths",
+          "Come back to centre and repeat on the other side"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटने नीचे ले जाने के लिए उल्टा कंधा उठा लेना",
+        "en": "Letting the opposite shoulder lift off the floor to get the knees down"
+      },
+      "easier": {
+        "hi": "घुटनों के नीचे तकिया रखें ताकि पूरा नीचे न जाना पड़े",
+        "en": "Put a cushion under the knees so they don't have to reach the floor"
+      },
+      "benefit": {
+        "hi": "कमर का तनाव खोलता है — सोने से पहले सबसे अच्छा पोज़",
+        "en": "Unwinds the low back — the best pose before sleep"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1118,6 +1758,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पीठ के बल सीधे लेटें",
+          "दायाँ घुटना मोड़कर छाती की ओर लाएँ, हाथ से हल्का पकड़ें",
+          "बायाँ पैर ज़मीन पर सीधा रखें",
+          "5 साँस, फिर दूसरा पैर, फिर दोनों पैर साथ"
+        ],
+        "en": [
+          "Lie flat on your back",
+          "Bend the right knee in towards the chest and hold it gently",
+          "Keep the left leg long on the floor",
+          "5 breaths, then the other leg, then both together"
+        ]
+      },
+      "mistake": {
+        "hi": "घुटने को ज़ोर से छाती में दबाना और गर्दन उठा लेना",
+        "en": "Yanking the knee hard into the chest and lifting the head"
+      },
+      "easier": {
+        "hi": "जाँघ के पीछे हाथ रखें, घुटने के ऊपर नहीं",
+        "en": "Hold behind the thigh rather than over the knee"
+      },
+      "benefit": {
+        "hi": "कमर का हल्का खिंचाव और पेट की गैस में आराम",
+        "en": "A gentle low-back release that also eases trapped gas"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1167,6 +1833,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "पैर सामने सीधे रखकर सीधे बैठें",
+          "साँस लेते हुए हाथ ऊपर और रीढ़ लंबी करें",
+          "साँस छोड़ते हुए कूल्हे से आगे झुकें",
+          "घुटने हल्के मोड़े रखें, जहाँ तक आसानी से जाए, 8 साँस"
+        ],
+        "en": [
+          "Sit tall with your legs straight out in front",
+          "Inhale, reach the arms up and lengthen the spine",
+          "Exhale and fold forward from the hips",
+          "Keep the knees soft and go only as far as is easy, 8 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर गोल करके सिर को घुटने तक ले जाने की कोशिश",
+        "en": "Rounding the back to force the head towards the knees"
+      },
+      "easier": {
+        "hi": "घुटने मोड़ें और पैर के तलवे में पट्टा या तौलिया डालें",
+        "en": "Bend the knees and loop a strap or towel around the feet"
+      },
+      "benefit": {
+        "hi": "पूरी पिछली लाइन खोलता है और मन शांत करता है",
+        "en": "Opens the entire back line of the body and calms the mind"
       },
       "avoid": [
         {
@@ -1226,6 +1918,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "सीधे बैठें, घुटने मोड़कर दोनों तलवे जोड़ें",
+          "हाथ से पैर पकड़ें, रीढ़ सीधी",
+          "घुटनों को अपने आप नीचे जाने दें — हाथ से दबाएँ नहीं",
+          "10 धीमी साँस"
+        ],
+        "en": [
+          "Sit tall, bend the knees and bring the soles together",
+          "Hold your feet, spine straight",
+          "Let the knees drop on their own — never press them down",
+          "10 slow breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "कोहनी से घुटने नीचे दबाना — जोड़ के लिए ठीक नहीं",
+        "en": "Pushing the knees down with the elbows — hard on the joint"
+      },
+      "easier": {
+        "hi": "दोनों घुटनों के नीचे तकिया; एड़ी शरीर से दूर रखें",
+        "en": "Cushions under both knees; slide the heels further away"
+      },
+      "benefit": {
+        "hi": "कूल्हा और अंदरूनी जाँघ खोलता है, बैठने की posture सुधारता है",
+        "en": "Opens the hips and inner thighs and improves how you sit"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -1262,6 +1980,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "बैठें, दायाँ पैर सामने सीधा",
+          "बायाँ घुटना मोड़कर तलवा दाईं जाँघ के पास रखें",
+          "साँस लेते हुए लंबे हों, छोड़ते हुए दाएँ पैर की ओर झुकें",
+          "छाती दाएँ घुटने की ओर, 6 साँस, फिर दूसरी तरफ़"
+        ],
+        "en": [
+          "Sit with the right leg straight out in front",
+          "Bend the left knee and bring the sole to the right inner thigh",
+          "Inhale to lengthen, exhale to fold over the right leg",
+          "Chest towards the right knee, 6 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "सीधे पैर का घुटना ताले में बंद करना और कमर गोल करना",
+        "en": "Locking the straight knee and rounding the back"
+      },
+      "easier": {
+        "hi": "मुड़े घुटने के नीचे सहारा; पैर में पट्टा डालें",
+        "en": "Support the bent knee; use a strap around the foot"
+      },
+      "benefit": {
+        "hi": "एक-एक तरफ़ की हैमस्ट्रिंग और कमर खोलता है",
+        "en": "Opens one hamstring and side of the low back at a time"
       },
       "avoid": [
         {
@@ -1316,6 +2060,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पैर कूल्हे से चौड़े, उँगलियाँ थोड़ी बाहर",
+          "धीरे-धीरे नीचे बैठ जाएँ",
+          "कोहनी घुटनों के अंदर रखें, हाथ छाती पर जोड़ें",
+          "छाती ऊपर, रीढ़ सीधी, 8 साँस"
+        ],
+        "en": [
+          "Feet wider than the hips, toes turned slightly out",
+          "Slowly squat all the way down",
+          "Bring the elbows inside the knees, palms together at the chest",
+          "Chest lifted, spine tall, 8 breaths"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर गोल करके आगे गिर जाना",
+        "en": "Rounding the back and tipping forward"
+      },
+      "easier": {
+        "hi": "एड़ी के नीचे मोड़ा हुआ कपड़ा; कूल्हे के नीचे ब्लॉक रखकर बैठें",
+        "en": "Fold a cloth under the heels; sit on a block"
+      },
+      "benefit": {
+        "hi": "कूल्हा गहराई से खोलता है और कमर का दबाव कम करता है",
+        "en": "Opens the hips deeply and decompresses the low back"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -1362,6 +2132,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "लो लंज से शुरू करें, पीछे का घुटना ज़मीन पर",
+          "कूल्हा धीरे नीचे दबाएँ",
+          "साँस लेते हुए दोनों हाथ ऊपर उठाएँ",
+          "छाती से हल्का पीछे झुकें — कमर से नहीं, 5 साँस, पैर बदलें"
+        ],
+        "en": [
+          "Start in a low lunge with the back knee down",
+          "Gently sink the hips forward and down",
+          "Inhale and sweep both arms overhead",
+          "Arch gently from the chest — not the low back, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर से पीछे झुक जाना और पसलियाँ बाहर निकल आना",
+        "en": "Hinging back from the low back and flaring the ribs"
+      },
+      "easier": {
+        "hi": "हाथ कमर पर रखें; पीछे के घुटने के नीचे तकिया",
+        "en": "Keep the hands on the hips; pad the back knee"
+      },
+      "benefit": {
+        "hi": "कूल्हे का सामना खोलता है और posture सीधी करता है",
+        "en": "Opens the hip flexors and lifts your posture"
+      },
       "avoid": [
         {
           "condition": "knee_arthritis",
@@ -1406,6 +2202,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "सीधे बैठें, कंधे ढीले",
+          "दायाँ हाथ ऊपर से पीठ के पीछे ले जाएँ, कोहनी ऊपर की ओर",
+          "बायाँ हाथ नीचे से पीछे ले जाकर दोनों को मिलाने की कोशिश करें",
+          "न मिलें तो तौलिया पकड़ें, 6 साँस, फिर हाथ बदलें"
+        ],
+        "en": [
+          "Sit tall with soft shoulders",
+          "Take the right arm up and bend it behind your back, elbow pointing up",
+          "Reach the left arm behind from below and try to clasp the hands",
+          "If they don't meet, hold a towel, 6 breaths, then switch arms"
+        ]
+      },
+      "mistake": {
+        "hi": "सिर आगे निकल आना और पसलियाँ बाहर आ जाना",
+        "en": "Letting the head jut forward and the ribs flare"
+      },
+      "easier": {
+        "hi": "तौलिया या पट्टा ज़रूर इस्तेमाल करें — फ़ायदा बराबर है",
+        "en": "Use a towel or strap without hesitation — the benefit is the same"
+      },
+      "benefit": {
+        "hi": "कंधे और छाती खोलता है — मोबाइल और लैपटॉप वालों के लिए ज़रूरी",
+        "en": "Opens the shoulders and chest — essential for phone and laptop posture"
+      },
       "avoid": [
         {
           "condition": "shoulder_injury",
@@ -1444,6 +2266,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "घुटनों पर बैठें, घुटने कूल्हे जितने चौड़े",
+          "हाथ कमर के पीछे रखें, उँगलियाँ नीचे की ओर",
+          "साँस लेते हुए छाती ऊपर उठाएँ और कूल्हा आगे दबाएँ",
+          "ठुड्डी छाती की ओर रखें — सिर पीछे न गिराएँ, 3 से 5 साँस",
+          "हाथ कमर पर रखकर सीधे आएँ, फिर बालासन में आराम करें"
+        ],
+        "en": [
+          "Kneel with the knees hip-width apart",
+          "Place your hands on your low back, fingers pointing down",
+          "Inhale, lift the chest and press the hips forward",
+          "Keep the chin towards the chest — do not drop the head back, 3 to 5 breaths",
+          "Hands on the back, come up tall, then rest in Child's Pose"
+        ]
+      },
+      "mistake": {
+        "hi": "सिर पीछे गिराना और कमर से मुड़ जाना — दोनों ख़तरनाक हैं",
+        "en": "Dropping the head back and bending from the low back — both are risky"
+      },
+      "easier": {
+        "hi": "हाथ कमर पर ही रखें, एड़ी तक जाने की कोशिश न करें; घुटनों के नीचे मोटी चटाई",
+        "en": "Keep the hands on the back and don't reach for the heels; pad under the knees"
+      },
+      "benefit": {
+        "hi": "छाती और कंधे गहराई से खोलता है, झुकी posture ठीक करता है",
+        "en": "Deeply opens the chest and shoulders and reverses a hunch"
       },
       "avoid": [
         {
@@ -1532,6 +2382,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पेट के बल लेटें, घुटने मोड़ें",
+          "हाथ पीछे ले जाकर दोनों टखने पकड़ें",
+          "साँस लेते हुए पैर पीछे धकेलें और छाती ऊपर उठाएँ",
+          "साँस चलती रहे, 3 से 4 साँस, फिर धीरे नीचे आएँ"
+        ],
+        "en": [
+          "Lie on your belly and bend both knees",
+          "Reach back and hold your ankles",
+          "Inhale, press the feet back and lift the chest",
+          "Keep breathing, 3 to 4 breaths, then lower slowly"
+        ]
+      },
+      "mistake": {
+        "hi": "साँस रोककर ज़ोर लगाना और गर्दन पीछे खींचना",
+        "en": "Holding the breath and straining, and craning the neck back"
+      },
+      "easier": {
+        "hi": "एक-एक पैर अलग पकड़ें (अर्ध धनुरासन)",
+        "en": "Hold one ankle at a time (half bow)"
+      },
+      "benefit": {
+        "hi": "पूरी पीठ मज़बूत करता है और शरीर का सामना खोलता है",
+        "en": "Strengthens the whole back and opens the front of the body"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1605,6 +2481,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "बैठें, बायाँ पैर मोड़कर नीचे रखें",
+          "दायाँ पैर बाएँ घुटने के बाहर ज़मीन पर रखें",
+          "बाईं कोहनी दाएँ घुटने के बाहर, दायाँ हाथ पीछे ज़मीन पर",
+          "साँस लेते हुए लंबे हों, छोड़ते हुए घूमें, 5 साँस, दूसरी तरफ़"
+        ],
+        "en": [
+          "Sit and fold the left leg in underneath",
+          "Place the right foot on the floor outside the left knee",
+          "Left elbow outside the right knee, right hand on the floor behind",
+          "Inhale to lengthen, exhale to twist, 5 breaths, then switch"
+        ]
+      },
+      "mistake": {
+        "hi": "हाथ से ज़बरदस्ती घुमाना और कूल्हा ज़मीन से उठ जाना",
+        "en": "Cranking the twist with the arm and lifting the hip off the floor"
+      },
+      "easier": {
+        "hi": "पैर क्रॉस न करें, सीधा रखें; कुर्सी पर बैठकर करें",
+        "en": "Keep the bottom leg straight instead of crossed; or do it on a chair"
+      },
+      "benefit": {
+        "hi": "रीढ़ घुमाने की क्षमता बढ़ाता है और पाचन में मदद करता है",
+        "en": "Improves spinal rotation and supports digestion"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1665,6 +2567,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "घुटने और हाथ ज़मीन पर, हाथ कंधे के नीचे",
+          "पैर पीछे सीधे करें, पंजों पर आ जाएँ",
+          "सिर से एड़ी तक एक सीधी रेखा बनाएँ",
+          "पेट अंदर खींचें, कूल्हा न झुके न ऊपर उठे, 20 से 30 सेकंड"
+        ],
+        "en": [
+          "Hands and knees down, wrists under the shoulders",
+          "Step the feet back and come onto your toes",
+          "Make one straight line from head to heels",
+          "Draw the belly in; don't let the hips sag or pike up, 20 to 30 seconds"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर झुक जाना या कूल्हा ऊपर उठ जाना; साँस रोक लेना",
+        "en": "Letting the hips drop or lift; holding the breath"
+      },
+      "easier": {
+        "hi": "घुटने ज़मीन पर रखकर करें — फ़ायदा वही रहता है",
+        "en": "Drop the knees to the mat — you still get the benefit"
+      },
+      "benefit": {
+        "hi": "पेट, कंधे और कमर एक साथ मज़बूत करता है",
+        "en": "Strengthens the core, shoulders and low back together"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1724,6 +2652,32 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "फलकासन में आएँ, घुटने ज़मीन पर रखें",
+          "कोहनी शरीर के पास रखें — बाहर नहीं",
+          "साँस छोड़ते हुए धीरे-धीरे नीचे आएँ",
+          "कोहनी 90° तक, फिर ऊपर — 3 बार दोहराएँ"
+        ],
+        "en": [
+          "Come to plank and lower the knees to the mat",
+          "Keep the elbows close to the body — not flared out",
+          "Exhale and lower down slowly",
+          "Elbows to about 90°, then push up — repeat 3 times"
+        ]
+      },
+      "mistake": {
+        "hi": "कोहनी बाहर फैला देना — कंधे पर दबाव पड़ता है",
+        "en": "Flaring the elbows wide — it loads the shoulder joint"
+      },
+      "easier": {
+        "hi": "सिर्फ़ थोड़ा नीचे आएँ; या दीवार के सहारे खड़े होकर करें",
+        "en": "Lower only a little; or do it standing against a wall"
+      },
+      "benefit": {
+        "hi": "हाथ और छाती मज़बूत करता है, कंधे को स्थिर बनाता है",
+        "en": "Builds arm and chest strength and stabilises the shoulders"
+      },
       "avoid": [
         {
           "condition": "wrist_pain",
@@ -1774,6 +2728,32 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "बैठें, घुटने मोड़ें, पैर ज़मीन पर",
+          "जाँघ के पीछे हाथ पकड़ें, छाती ऊपर उठाएँ",
+          "थोड़ा पीछे झुकें और पिंडली ज़मीन के समानांतर उठाएँ",
+          "कमर गोल न हो, साँस चलती रहे, 15 से 20 सेकंड"
+        ],
+        "en": [
+          "Sit with the knees bent and feet on the floor",
+          "Hold behind the thighs and lift the chest",
+          "Lean back slightly and lift the shins parallel to the floor",
+          "Don't round the back, keep breathing, 15 to 20 seconds"
+        ]
+      },
+      "mistake": {
+        "hi": "कमर गोल करके पीछे गिर जाना और साँस रोक लेना",
+        "en": "Collapsing back with a rounded spine and holding the breath"
+      },
+      "easier": {
+        "hi": "पैर ज़मीन पर ही रखें और सिर्फ़ छाती ऊपर रखते हुए पीछे झुकें",
+        "en": "Keep the feet down and simply lean back with a tall chest"
+      },
+      "benefit": {
+        "hi": "पेट की गहरी मांसपेशियाँ मज़बूत करता है — कमर को सहारा देता है",
+        "en": "Strengthens the deep core that supports your low back"
       },
       "avoid": [
         {
@@ -1834,6 +2814,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "दीवार के पास बैठें, कूल्हा दीवार से लगभग 10 सेंटीमीटर दूर",
+          "करवट लेकर लेटें और पैर दीवार पर ऊपर चढ़ा दें",
+          "हाथ साइड में, हथेली ऊपर, आँख बंद",
+          "2 से 5 मिनट आराम से साँस लेते रहें",
+          "घुटने मोड़ें, करवट लें, और धीरे उठें"
+        ],
+        "en": [
+          "Sit beside a wall with your hips about 10 cm away",
+          "Roll onto your side and swing the legs up the wall",
+          "Arms by your sides, palms up, eyes closed",
+          "Breathe easily for 2 to 5 minutes",
+          "Bend the knees, roll to your side, and come up slowly"
+        ]
+      },
+      "mistake": {
+        "hi": "झटके से उठ जाना — चक्कर आ सकता है",
+        "en": "Getting up quickly — it can make you dizzy"
+      },
+      "easier": {
+        "hi": "कूल्हे के नीचे मोड़ा हुआ कंबल रखें; कूल्हा दीवार से और दूर करें",
+        "en": "Fold a blanket under the hips; move further from the wall"
+      },
+      "benefit": {
+        "hi": "थकी टाँगों को आराम देता है और नींद के लिए शरीर को शांत करता है",
+        "en": "Rests tired legs and settles the body for sleep"
       },
       "avoid": [
         {
@@ -1899,6 +2907,34 @@
         "hi": null,
         "en": null
       },
+      "steps": {
+        "hi": [
+          "पीठ के बल लेटें, पैर थोड़े अलग",
+          "हाथ शरीर से थोड़ा दूर, हथेली ऊपर की ओर",
+          "आँख बंद करें, जबड़ा और चेहरा ढीला छोड़ें",
+          "3 से 5 मिनट बिना हिले — साँस अपने आप चलने दें",
+          "उँगलियाँ हिलाएँ, करवट लें, धीरे उठें"
+        ],
+        "en": [
+          "Lie on your back with the feet slightly apart",
+          "Arms a little away from the body, palms facing up",
+          "Close your eyes and let the jaw and face go soft",
+          "3 to 5 minutes without moving — let the breath breathe itself",
+          "Wiggle your fingers, roll to your side, come up slowly"
+        ]
+      },
+      "mistake": {
+        "hi": "इसे छोड़ देना — यही सेशन का सबसे ज़रूरी हिस्सा है",
+        "en": "Skipping it — this is the most important part of the session"
+      },
+      "easier": {
+        "hi": "घुटनों के नीचे तकिया रखें; गर्भावस्था में बाईं करवट लेकर लेटें",
+        "en": "Cushion under the knees; in pregnancy, lie on your left side instead"
+      },
+      "benefit": {
+        "hi": "शरीर को सीखने और सुधरने का मौका देता है, तनाव कम करता है",
+        "en": "Lets the body absorb the practice and lowers stress"
+      },
       "avoid": [
         {
           "condition": "pregnancy",
@@ -1936,6 +2972,34 @@
       "audio": {
         "hi": null,
         "en": null
+      },
+      "steps": {
+        "hi": [
+          "सुखासन में सीधे बैठें, कंधे ढीले",
+          "दाएँ हाथ का अंगूठा दाईं नाक पर, अनामिका बाईं नाक पर",
+          "दाईं नाक बंद करें और बाईं से धीरे साँस अंदर लें",
+          "बाईं बंद करें और दाईं से धीरे साँस बाहर छोड़ें — यह एक चक्र",
+          "9 चक्र करें। साँस कभी न रोकें"
+        ],
+        "en": [
+          "Sit cross-legged and tall with soft shoulders",
+          "Right thumb to the right nostril, ring finger to the left",
+          "Close the right nostril and inhale slowly through the left",
+          "Close the left and exhale slowly through the right — that is one round",
+          "Do 9 rounds. Never hold the breath"
+        ]
+      },
+      "mistake": {
+        "hi": "साँस रोकना (कुम्भक) या ज़ोर से साँस खींचना — इस ऐप में दोनों नहीं करने हैं",
+        "en": "Holding the breath (kumbhaka) or forcing it — neither belongs in this app"
+      },
+      "easier": {
+        "hi": "हाथ थक जाए तो कोहनी किसी सहारे पर रखें; सिर्फ़ 5 चक्र से शुरू करें",
+        "en": "Rest the elbow on something if the arm tires; start with just 5 rounds"
+      },
+      "benefit": {
+        "hi": "मन शांत करता है और नींद बेहतर बनाता है",
+        "en": "Calms the mind and improves sleep"
       },
       "avoid": [
         {
